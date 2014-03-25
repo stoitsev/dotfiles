@@ -1,0 +1,25 @@
+set nocompatible
+filetype off
+
+" Vundle initialize
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" let Vundle manage Vundle, required
+Plugin 'gmarik/vundle'
+
+" Plugins
+Plugin 'tpope/vim-fugitive' " Git wrapper
+Plugin 'Lokaltog/vim-easymotion' " Highlighting and allowing you to press key to jump to the target
+Plugin 'scrooloose/nerdtree' " A tree explorer plugin for vim.
+Plugin 'closetag.vim'
+Plugin 'ctrlp.vim'
+Plugin 'delimitmate.vim' " automatic closing of quotes, parenthesis, brackets, etc
+Plugin 'ihacklog/hicursorwords' " highlights words under the cursor
+Plugin 'claco/jasmine.vim'
+Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+
+runtime startup/settings.vim
+runtime startup/plugins.vim
+
+filetype plugin indent on     " required
