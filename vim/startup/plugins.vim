@@ -6,8 +6,11 @@ nnoremap <Leader>d :let NERDTreeQuitOnOpen = 1<bar>NERDTreeToggle<CR>
 nnoremap <Leader>D :let NERDTreeQuitOnOpen = 0<bar>NERDTreeToggle<CR>
 
 " Powerline
-" let g:Powerline_symbols = 'fancy'
-" call Pl#Theme#InsertSegment('ws_marker', 'after', 'lineinfo')
+let g:Powerline_symbols = 'fancy'
+call Pl#Theme#InsertSegment('ws_marker', 'after', 'lineinfo')
+
+" Always show statusline
+set laststatus=2
 
 " CtrlP
 let g:ctrlp_working_path_mode = 2
