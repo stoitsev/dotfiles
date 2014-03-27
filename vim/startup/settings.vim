@@ -4,6 +4,10 @@ set t_Co=256
 colorscheme github
 set ttyfast
 set updatetime=1000
+set showmatch " Show matching braces when over one
+set mousehide " Do not show mouse while typing
+set antialias " Pretty fonts
+
 
 " View formatting
 set number
@@ -27,3 +31,4 @@ if has('persistent_undo')
   set undodir=~/.vimundo
   set undofile
 end
+
