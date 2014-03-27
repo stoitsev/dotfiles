@@ -13,5 +13,5 @@ call Pl#Theme#InsertSegment('ws_marker', 'after', 'lineinfo')
 set laststatus=2
 
 " CtrlP
-let g:ctrlp_working_path_mode = 2
-let g:ctrlp_by_filename = 1
+" let g:ctrlp_working_path_mode = 2
+" let g:ctrlp_by_filename = 1
