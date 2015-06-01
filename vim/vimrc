@@ -18,6 +18,7 @@ Plugin 'delimitmate.vim' " automatic closing of quotes, parenthesis, brackets, e
 Plugin 'ihacklog/hicursorwords' " highlights words under the cursor
 Plugin 'claco/jasmine.vim'
 Plugin 'Lokaltog/vim-powerline'
+Plugin 'ryanss/vim-hackernews'
 
 runtime startup/settings.vim
 runtime startup/plugins.vim
